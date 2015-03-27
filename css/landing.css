@@ -737,8 +737,9 @@ li.pricing-title {
 .pace-inactive {
   display: none; }
 
-
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
   background: none; 
   background-image: url(../img/mathtracks.png); 
   height: 129px; 
