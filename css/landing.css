@@ -743,10 +743,26 @@ li.pricing-title {
   background: none; 
   background-image: url(../img/mathtracks.png); 
   height: 129px; 
-  width: 200px
+  margin-top: 10px;
+  width: 200px;
 }
 .navbar-default.navbar-scroll .navbar-brand {
   background-image: url(../img/mathtracks-text.png);
   height: 32px;
   width: 100px;
+}
+
+.carousel-caption {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    background-image: url(../img/mathtracks-text.png);
+    height: 32px;
+    width: 100px;
+    margin-top: 10px !important;
+  }
 }
