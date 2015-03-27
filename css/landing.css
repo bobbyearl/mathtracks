@@ -747,9 +747,10 @@ li.pricing-title {
   width: 200px;
 }
 .navbar-default.navbar-scroll .navbar-brand {
-  background-image: url(../img/mathtracks-text.png);
-  height: 32px;
+  background-image: url(../img/mathtracks-text3.png);
+  height: 42px;
   width: 100px;
+  margin-top: 17px;
 }
 
 .carousel-caption {
@@ -759,10 +760,11 @@ li.pricing-title {
 @media screen and (max-width: 767px) {
   .navbar-default .navbar-brand,
   .navbar-default .navbar-brand:hover,
-  .navbar-default .navbar-brand:focus {
-    background-image: url(../img/mathtracks-text.png);
-    height: 32px;
+  .navbar-default .navbar-brand:focus,
+  .navbar-default.navbar-scroll .navbar-brand {
+    background-image: url(../img/mathtracks-text3.png);
+    height: 42px;
     width: 100px;
-    margin-top: 10px !important;
+    margin-top: 6px;
   }
 }
