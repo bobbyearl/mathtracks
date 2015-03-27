@@ -736,3 +736,16 @@ li.pricing-title {
 
 .pace-inactive {
   display: none; }
+
+
+.navbar-default .navbar-brand {
+  background: none; 
+  background-image: url(../img/mathtracks.png); 
+  height: 129px; 
+  width: 200px
+}
+.navbar-default.navbar-scroll .navbar-brand {
+  background-image: url(../img/mathtracks-text.png);
+  height: 32px;
+  width: 100px;
+}
